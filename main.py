@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain import PromptTemplate
 from langchain import OpenAI
-import config
+#import config
 
 #openai_api_key = config.OPEN_AI_KEY
 st.secrets["API_KEY"]
