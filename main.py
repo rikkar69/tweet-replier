@@ -52,12 +52,12 @@ with col1:
 with col2:
     st.image(image="Asset 1.png", width=303)
 
-st.markdown("OpenAI API Key")
+#st.markdown("OpenAI API Key")
 
-def get_API():
-    u_key = st.text_input(label="", placeholder="Enter API Key...")
-    return u_key
-openai_api_key = get_API()
+#def get_API():
+#    u_key = st.text_input(label="", placeholder="Enter API Key...")
+#    return u_key
+#openai_api_key = get_API()
 
 
 #tweet entry field
