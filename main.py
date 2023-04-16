@@ -4,7 +4,7 @@ from langchain import OpenAI
 #import config
 
 #openai_api_key = config.OPEN_AI_KEY
-st.secrets["API_KEY"]
+openai_api_key = st.secrets["API_KEY"]
 
 #prompt template to pass to langchain
 template = """
